@@ -1,0 +1,15 @@
+C:\Users\vinic\Documents\TesteDesenvolvedorBack-End\bin\Debug\net8.0\TesteDesenvolvedorBack-End.exe
+C:\Users\vinic\Documents\TesteDesenvolvedorBack-End\bin\Debug\net8.0\TesteDesenvolvedorBack-End.deps.json
+C:\Users\vinic\Documents\TesteDesenvolvedorBack-End\bin\Debug\net8.0\TesteDesenvolvedorBack-End.runtimeconfig.json
+C:\Users\vinic\Documents\TesteDesenvolvedorBack-End\bin\Debug\net8.0\TesteDesenvolvedorBack-End.dll
+C:\Users\vinic\Documents\TesteDesenvolvedorBack-End\bin\Debug\net8.0\TesteDesenvolvedorBack-End.pdb
+C:\Users\vinic\Documents\TesteDesenvolvedorBack-End\obj\Debug\net8.0\TesteDesenvolvedorBack-End.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinic\Documents\TesteDesenvolvedorBack-End\obj\Debug\net8.0\TesteDesenvolvedorBack-End.AssemblyInfoInputs.cache
+C:\Users\vinic\Documents\TesteDesenvolvedorBack-End\obj\Debug\net8.0\TesteDesenvolvedorBack-End.AssemblyInfo.cs
+C:\Users\vinic\Documents\TesteDesenvolvedorBack-End\obj\Debug\net8.0\TesteDesenvolvedorBack-End.csproj.CoreCompileInputs.cache
+C:\Users\vinic\Documents\TesteDesenvolvedorBack-End\obj\Debug\net8.0\TesteDesenvolvedorBack-End.sourcelink.json
+C:\Users\vinic\Documents\TesteDesenvolvedorBack-End\obj\Debug\net8.0\TesteDesenvolvedorBack-End.dll
+C:\Users\vinic\Documents\TesteDesenvolvedorBack-End\obj\Debug\net8.0\refint\TesteDesenvolvedorBack-End.dll
+C:\Users\vinic\Documents\TesteDesenvolvedorBack-End\obj\Debug\net8.0\TesteDesenvolvedorBack-End.pdb
+C:\Users\vinic\Documents\TesteDesenvolvedorBack-End\obj\Debug\net8.0\TesteDesenvolvedorBack-End.genruntimeconfig.cache
+C:\Users\vinic\Documents\TesteDesenvolvedorBack-End\obj\Debug\net8.0\ref\TesteDesenvolvedorBack-End.dll

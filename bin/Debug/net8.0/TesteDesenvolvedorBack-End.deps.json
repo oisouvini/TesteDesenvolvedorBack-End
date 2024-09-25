@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "TesteDesenvolvedorBack-End/1.0.0": {
+        "runtime": {
+          "TesteDesenvolvedorBack-End.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TesteDesenvolvedorBack-End/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
