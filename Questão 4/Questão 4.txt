@@ -1,0 +1,109 @@
+------Proponha um modelo lógico para o banco de dados que vai atender a aplicação. Desenhe as tabelas necessárias, os campos de cada uma e marque com setas os relacionamentos existentes entre as tabelas;------
+
+Modelo Lógico
+
+Clientes,Telefones e Estados.
+
+1.Clientes
+cliente_id (PK) - Identificador único do cliente.
+razao_social - Razão social do cliente.
+estado_id (FK) - Relaciona o cliente ao estado.
+
+2.Telefones
+telefone_id (PK) - Identificador único do telefone.
+numero - Número do telefone.
+tipo_telefone - Tipo do telefone (comercial, residencial, celular, etc.).
+cliente_id (FK) - Relaciona o telefone ao cliente.
+
+3.Estados
+estado_id (PK) - Identificador único do estado.
+nome_estado - Nome do estado.
+sigla_estado - Sigla do estado.
+
+Diagrama do Modelo Lógico em texto.
+
+Clientes
+---------
+PK  cliente_id
+    razao_social
+FK  estado_id
+
+Telefones
+---------
+PK  telefone_id
+    numero
+    tipo_telefone
+FK  cliente_id
+
+Estados
+---------
+PK  estado_id
+    nome_estado
+    sigla_estado
+
+---------------------Aponte os campos que são chave primária (PK) e chave estrangeira (FK);------------------------
+
+
+Chaves Primárias (PK):
+
+cliente_id na tabela Clientes
+telefone_id na tabela Telefones
+estado_id na tabela Estados
+
+Chaves Estrangeiras (FK):
+
+estado_id na tabela Clientes (referencia Estados)
+cliente_id na tabela Telefones (referencia Clientes)
+
+
+
+---------------------Faça uma busca utilizando comando SQL que traga o código, a razão social e o(s) telefone(s) de todos os clientes do estado de São Paulo (código “SP”);--------------------------------
+
+SELECT 
+    c.cliente_id,
+    c.razao_social,
+    t.numero AS telefone
+FROM 
+    Clientes c
+JOIN 
+    Estados e ON c.estado_id = e.estado_id
+LEFT JOIN 
+    Telefones t ON c.cliente_id = t.cliente_id
+WHERE 
+    e.sigla_estado = 'SP';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
